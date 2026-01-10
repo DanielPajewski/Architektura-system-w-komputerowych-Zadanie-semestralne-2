@@ -31,5 +31,12 @@ Projekt jest prostym alarmem wykorzystuje mikrokontroler ATMega328P (Arduino), m
 •8-bitowy rejestr przesuwny (74HC595)
 
 •Przewody (różowy, fioletowy, czarny)
+# Schematy
+<img width="725" height="453" alt="image" src="https://github.com/user-attachments/assets/948c8be2-9c0f-4eee-8311-c14340274488" />
+
+<img width="876" height="677" alt="image" src="https://github.com/user-attachments/assets/43eb12a8-cbbb-4320-a599-78053584ba9d" />
+
+<img width="876" height="676" alt="image" src="https://github.com/user-attachments/assets/646b88c8-299a-4164-9208-9b56a03fd5e2" />
+
 # Link do projektu w TinkerCad
 https://www.tinkercad.com/things/kTcxIvqyMKj-ask?sharecode=7MFY-UlmYapReJWqLh_6AfLYa9pHraKVC2Dxa0aHRac
