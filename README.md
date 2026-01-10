@@ -14,7 +14,22 @@ Projekt jest prostym alarmem wykorzystuje mikrokontroler ATMega328P (Arduino), m
 
 -Licznik aktywnych PIRów (Licznik wykrytych ruchów od 1-5)
 # Zastosowany sprzęt
+•Mikrokontroler ATMega328P (Arduino)
 
+•Czujnik ruch PIR x5
 
+•Rezystor 1kΩ x10
+
+•Rezystor 250Ω x1
+
+•Panel LED 7 pinowy
+
+•Dioda LED (czerwona) x5
+
+•Przycisk x5
+
+•8-bitowy rejestr przesuwny 74HC595
+
+•
 # Link do projektu w TinkerCad
 https://www.tinkercad.com/things/kTcxIvqyMKj-ask?sharecode=7MFY-UlmYapReJWqLh_6AfLYa9pHraKVC2Dxa0aHRac
