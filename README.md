@@ -13,5 +13,8 @@ Projekt jest prostym alarmem wykorzystuje mikrokontroler ATMega328P (Arduino), m
 -Panel LED pokazuje informacje na temat aktywności alarmu (dolna kreska-nieaktywny, górna kreska aktywny)
 
 -Licznik aktywnych PIRów (Licznik wykrytych ruchów od 1-5)
+# Zastosowany sprzęt
+
+
 # Link do projektu w TinkerCad
 https://www.tinkercad.com/things/kTcxIvqyMKj-ask?sharecode=7MFY-UlmYapReJWqLh_6AfLYa9pHraKVC2Dxa0aHRac
