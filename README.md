@@ -41,5 +41,15 @@ Projekt jest prostym alarmem wykorzystuje mikrokontroler ATMega328P (Arduino), m
 # Link do projektu w TinkerCad
 https://www.tinkercad.com/things/kTcxIvqyMKj-ask?sharecode=7MFY-UlmYapReJWqLh_6AfLYa9pHraKVC2Dxa0aHRac
 
-# Opis działa alramu/Instrukcja obsługi
+# Opis działa alramu
 Po włączeniu alarmu żaden czujnik nie jest aktywny o czym świadczy kreska wyświtlana na dole panelu LED, aby włączyć czujnik PIR należy wcisnąć przycisk znajdujący się po prawo od każdego czujnika. Każdy czujnik PIR posiada osobną dioda informującą o aktywności alarmu (dioda nieświeci-PIR wyłączony, dioda świeci-PIR włączony).Po włączeniu dowlonego PIRa (dioda świeci) kreska będzie świeci na górze panelu LED informując o tym, że alaram jest aktywny. Gdy dioda LED świeci i PIR wykruje ruch ta informacja jest wyświetlana na panelu LED każdy PIR wysyła informacje o tym że wykrył ruch jeśli ruch został wykryty na jednym PIRze panel LED wyświetli 1 jeśli na dwuch wyświteli 2 i tak do 5. Aby wyłączyć czujnik PIR należy wcisnąć przycisk ponownie 
+# Opis działa programu
+Program obsługuje pięć czujników ruchu PIR, które mogą być niezależnie włączane i wyłączane za pomocą przycisków. Dla każdego czujnika zapamiętywany jest jego stan aktywności oraz informacja, czy wykrył on już ruch. Program zlicza liczbę czujników, które wykryły ruch, i wyświetla wynik na jednocyfrowym wyświetlaczu 7-segmentowym sterowanym przez rejestr przesuwny 74HC595.
+
+Po uruchomieniu wszystkie czujniki są wyłączone, a licznik wykryć ustawiony na zero. Naciśnięcie przycisku powoduje zmianę stanu odpowiadającego mu czujnika. Włączenie czujnika zeruje licznik oraz informacje o wcześniejszych wykryciach, natomiast jego wyłączenie usuwa ewentualne wykrycie z licznika.
+
+Dla aktywnych czujników program sprawdza sygnał z wejścia PIR. Wykrycie ruchu powoduje zwiększenie licznika tylko jeden raz dla danego czujnika, co zapobiega wielokrotnemu zliczaniu.
+
+Stan czujników jest sygnalizowany diodami LED – zapalona dioda oznacza czujnik wyłączony. Na wyświetlaczu 7-segmentowym prezentowany jest znak „–” przy braku aktywnych czujników, „0” gdy nie wykryto ruchu lub liczba odpowiadająca ilości wykrytych ruchów.
+# Autor
+Daniel Pajewski 21525
